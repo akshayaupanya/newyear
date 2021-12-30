@@ -83,10 +83,10 @@ function draw() {
   button2.visible = false;
   button.visible = false;
  }
-if(mousePressedOver(button)){
+if(mousePressedOver(button)|| touches.length>0){
   gameState ="b"
 }
-if(mousePressedOver(button2)){
+if(mousePressedOver(button2)|| touches.length>0){
   gameState ="c"
 }
 
